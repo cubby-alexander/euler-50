@@ -1,0 +1,10 @@
+# Ignore temporary files.
+/tmp/
+
+# Ignore other IDE project files
+.idea/
+.vscode/
+.project
+.classpath
+.cproject
+.settings/
