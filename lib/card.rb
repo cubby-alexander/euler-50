@@ -18,4 +18,8 @@ class Card
   def <=>(other)
     value_rank <=> other.value_rank
   end
+
+  def to_s
+    "#{value}#{suit}"
+  end
 end
