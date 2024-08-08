@@ -87,7 +87,7 @@ class Hand
   end
 
   def assay_single_duplicate(grouped_card_values)
-    sorted_groups = grouped_card_values.sort_by { |group| [-group.size] }
+    sorted_groups = grouped_card_values.values.sort_by { |group| [-group.size] }
     if sorted_groups.size == 4
       {
         type: "one_pair",
