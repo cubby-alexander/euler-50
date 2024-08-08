@@ -56,7 +56,7 @@ class Hand
   end
 
   def hand_rank
-    VALUES.index(hand_type)
+    VALUES.index(hand_details[:type])
   end
 
   def hand_cards
